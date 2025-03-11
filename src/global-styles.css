@@ -1,0 +1,37 @@
+:root {
+    --text-color: #FFFFFF;
+    --bg-color: #818181;
+    --bg-color-dark: #2F2F2F;
+    --bg-color-darker: #060606;
+    --text-orange: #ff711b;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: "SF Pro Display", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

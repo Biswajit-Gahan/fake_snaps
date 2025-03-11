@@ -1,0 +1,25 @@
+.navbar_mainContainer {
+    width: 100%;
+    height: 4.55rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_time {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+
+.navbar_statusContainer {
+    margin-right: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.navbar_networkType {
+    font-size: 1.2rem;
+    font-weight: 400;
+}

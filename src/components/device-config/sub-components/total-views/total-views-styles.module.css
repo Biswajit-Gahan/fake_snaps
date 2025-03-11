@@ -1,0 +1,30 @@
+.totalViews_mainContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.totalViews_container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.totalViews_inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.totalViews_input {
+    width: 4rem;
+    border: 0.05rem solid transparent;
+    border-bottom-color: var(--bg-color);
+    outline: none;
+    background-color: transparent;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}

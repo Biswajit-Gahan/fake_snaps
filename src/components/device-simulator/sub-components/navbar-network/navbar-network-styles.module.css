@@ -1,0 +1,50 @@
+.navbarNetwork_mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.navbarNetwork_networkS1Wrapper{
+    display: flex;
+    align-items: baseline;
+    gap: 0.15rem;
+}
+
+.navbarNetwork_networkS1Bar {
+    width: 0.29rem;
+    height: 0.7rem;
+    border-radius: 0.1rem;
+    background-color: var(--bg-color);
+}
+
+.navbarNetwork_networkS1Bar:nth-child(1) {
+    height: 0.35rem;
+}
+
+.navbarNetwork_networkS1Bar:nth-child(2) {
+    height: 0.45rem;
+}
+
+.navbarNetwork_networkS1Bar:nth-child(3) {
+    height: 0.6rem;
+}
+
+.navbarNetwork_networkS1BarActive {
+    background-color: var(--text-color);
+}
+
+.navbarNetwork_networkS2Wrapper{
+    display: flex;
+    gap: 0.15rem;
+}
+
+.navbarNetwork_networkS2Bar {
+    width: 0.29rem;
+    height: 0.35rem;
+    border-radius: 0.1rem;
+    background-color: var(--bg-color);
+}
+
+.navbarNetwork_networkS2BarActive {
+    background-color: var(--text-color);
+}

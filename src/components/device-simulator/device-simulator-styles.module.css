@@ -1,0 +1,68 @@
+.deviceSimulator_mainContainer {
+    width: 100%;
+    /*height: 769px;*/
+    /*height: 100%;*/
+    color: var(--text-color);
+    background-color: var(--bg-color-darker);
+}
+
+/*USER STATUS*/
+.userStatus_mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.55rem;
+    margin-top: 0.15rem;
+    height: 4.5rem;
+}
+
+.userStatus_infoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userStatus_arrowIconContainer {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.userStatus_userAvatarContainer {
+    margin-left: 0.6rem;
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.userStatus_userAvatar {
+    width: 100%;
+    height: auto;
+}
+
+.userStatus_timeContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 1.2rem;
+    gap: 0.7rem;
+}
+
+.userStatus_meText {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.userStatus_dotSeparator {
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 0.2rem;
+    border-radius: 50%;
+    background-color: var(--text-color);
+}
+
+.userStatus_hourText {
+    font-size: 1.2rem;
+}
+
+.userStatus_ellipsisIconContainer {
+    margin-right: 0.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}

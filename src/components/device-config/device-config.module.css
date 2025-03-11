@@ -1,0 +1,10 @@
+.deviceConfig_mainContainer {
+    width: 100%;
+    max-width: 40rem;
+}
+
+.deviceConfig_batteryContainer {}
+
+.deviceConfig_wrapper {
+    margin-top: 0.8rem;
+}

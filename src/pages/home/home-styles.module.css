@@ -1,0 +1,36 @@
+.home_mainContainer {
+    width: 100%;
+    padding: 1rem;
+    background-color: #202020;
+    color: var(--text-color);
+}
+
+.home_mainWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.home_deviceConfigContainer {
+    width: 100%;
+}
+
+.home_brandName {
+    margin-bottom: 2.5rem;
+}
+
+.home_version {
+    font-size: 0.6rem;
+    background-color: var(--text-orange);
+    padding: 0.2rem 0.5rem;
+    border-radius: 5rem;
+}
+
+.home_deviceSimulatorContainer {
+    width: 547px;
+    min-width: 547px;
+    height: calc(100dvh - 2rem);
+    overflow-y: auto;
+}

@@ -1,0 +1,11 @@
+.statusMedia_mainContainer {
+    margin-top: 17.5rem;
+}
+
+.statusMedia_image {
+    width: 100%;
+    height: auto;
+    max-height: 19rem;
+    object-fit: cover;
+    object-position: center;
+}
