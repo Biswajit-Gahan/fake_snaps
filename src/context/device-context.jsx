@@ -9,6 +9,8 @@ const initialState = {
     statusLapse: 35,
     screenshotHour: 1,
     screenshotMinute: 30,
+    publishedBeforeTime: 1,
+    publishedBeforeTimeFormat: "m",
     totalViews: 50,
     image: defaultThumbnail,
     statusMessage: "",
@@ -47,6 +49,12 @@ function reducer(state, {type, payload}) {
         }
         case "SET_IMAGE": {
             return {...state, image: payload};
+        }
+        case "SET_PUBLISHED_BEFORE_TIME": {
+            return {...state, publishedBeforeTime: payload};
+        }
+        case "SET_PUBLISHED_BEFORE_TIME_FORMAT": {
+            return {...state, publishedBeforeTimeFormat: payload};
         }
         default: return {...state};
     }

@@ -1,0 +1,41 @@
+.publishedBefore_mainContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.publishedBefore_container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.publishedBefore_inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.publishedBefore_input {
+    width: 4rem;
+    border: 0.05rem solid transparent;
+    outline: none;
+    background-color: transparent;
+    border-bottom-color: var(--bg-color);
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+.publishedBefore_select {
+    width: 4rem;
+    border: 0.05rem solid transparent;
+    outline: none;
+    border-bottom-color: var(--bg-color);
+    font-size: inherit;
+    font-family: inherit;
+    background-color: #202020;
+    color: inherit;
+}

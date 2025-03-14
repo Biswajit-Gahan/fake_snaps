@@ -9,6 +9,7 @@ import TotalViews from "./sub-components/total-views/total-views.jsx";
 import StatusMessage from "./sub-components/status-message/status-message.jsx";
 import UploadImage from "./sub-components/upload-image/upload-image.jsx";
 import GenerateImage from "./sub-components/generate-image/generate-image.jsx";
+import PublishedBefore from "./sub-components/published-before/published-before.jsx";
 
 export default function DeviceConfig() {
     return <div className={styles.deviceConfig_mainContainer}>
@@ -34,6 +35,10 @@ export default function DeviceConfig() {
 
         <div className={styles.deviceConfig_wrapper}>
             <ScreenshotTime />
+        </div>
+
+        <div className={styles.deviceConfig_wrapper}>
+            <PublishedBefore />
         </div>
 
         <div className={styles.deviceConfig_wrapper}>
