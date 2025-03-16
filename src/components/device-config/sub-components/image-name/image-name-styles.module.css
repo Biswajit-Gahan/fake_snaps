@@ -1,0 +1,27 @@
+.imageName_container {
+    margin-bottom: 1rem;
+}
+
+.imageName_wrapper {
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imageName_nameWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.imageName_input {
+    width: 100%;
+    border: 0.05rem solid transparent;
+    border-bottom-color: var(--bg-color);
+    outline: none;
+    background-color: transparent;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}

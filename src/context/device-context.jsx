@@ -14,6 +14,7 @@ const initialState = {
     totalViews: 50,
     image: defaultThumbnail,
     statusMessage: "",
+    imageName: "",
 }
 
 const Context = createContext(null);
@@ -55,6 +56,9 @@ function reducer(state, {type, payload}) {
         }
         case "SET_PUBLISHED_BEFORE_TIME_FORMAT": {
             return {...state, publishedBeforeTimeFormat: payload};
+        }
+        case "SET_IMAGE_NAME": {
+            return {...state, imageName: payload};
         }
         default: return {...state};
     }

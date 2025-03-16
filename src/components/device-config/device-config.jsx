@@ -10,6 +10,7 @@ import StatusMessage from "./sub-components/status-message/status-message.jsx";
 import UploadImage from "./sub-components/upload-image/upload-image.jsx";
 import GenerateImage from "./sub-components/generate-image/generate-image.jsx";
 import PublishedBefore from "./sub-components/published-before/published-before.jsx";
+import ImageName from "./sub-components/image-name/image-name.jsx";
 
 export default function DeviceConfig() {
     return <div className={styles.deviceConfig_mainContainer}>
@@ -47,6 +48,10 @@ export default function DeviceConfig() {
 
         <div className={styles.deviceConfig_wrapper}>
             <UploadImage />
+        </div>
+
+        <div className={styles.deviceConfig_wrapper}>
+            <ImageName />
         </div>
 
         <div className={styles.deviceConfig_wrapper}>
