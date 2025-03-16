@@ -11,7 +11,7 @@ export default function useGenerateImage() {
 
         domtoimage.toJpeg(device).then(function (dataUrl) {
             let link = document.createElement('a');
-            link.download = `${imageName || Date.now()}.jpg`;
+            link.download = `${imageName || Date.now()}.jpeg`;
             link.href = dataUrl;
             link.click();
         })
