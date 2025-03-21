@@ -9,7 +9,7 @@ export default function useGenerateImage() {
     function handleGenerateImage() {
         const device = document.getElementById('device-simulator');
 
-        domtoimage.toJpeg(device).then(function (dataUrl) {
+        domtoimage.toJpeg(device, {quality: 1}).then(function (dataUrl) {
             let link = document.createElement('a');
             link.download = `${imageName || Date.now()}.jpeg`;
             link.href = dataUrl;
