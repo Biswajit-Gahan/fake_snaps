@@ -46,8 +46,7 @@
     line-height: 0;
     font-weight: 400;
     z-index: 1;
-    /*-webkit-text-fill-color: var(--bg-color-darker); !* Will override color (regardless of order) *!*/
-    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-width: 0.055rem;
     -webkit-text-stroke-color: var(--bg-color-darker);
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.08rem;
 }
